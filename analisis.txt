@@ -1,0 +1,23 @@
+Problema:
+El problema de la campana de Gauss trata sobre el filtrado de señales utilizando la función de densidad de probabilidad (fdp) de la campana de Gauss.
+
+Entradas:
+- Frecuencia de la señal (número entero).
+
+Salidas:
+- Mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+Otras variables:
+- Media (𝜇) de la distribución normal (valor numérico).
+- Desviación estándar (𝜎) de la distribución normal (valor numérico).
+- Umbral de probabilidad acumulada (valor numérico).
+
+Proceso(s):
+1. Se solicita al usuario que ingrese la frecuencia de la señal.
+2. Se calcula la probabilidad acumulada utilizando la función de densidad de probabilidad de la campana de Gauss.
+3. Se compara la probabilidad acumulada con un umbral predefinido.
+4. Si la probabilidad acumulada es mayor que el umbral, se emite un mensaje indicando que la señal pasa el filtro; de lo contrario, se emite un mensaje indicando que la señal es bloqueada por el filtro.
+
+Restricciones:
+- Se utiliza un umbral predefinido para determinar si la señal pasa o es bloqueada por el filtro.
+- La función de densidad de probabilidad de la campana de Gauss se calcula utilizando la media y la desviación estándar predefinidas.

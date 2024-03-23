@@ -1,0 +1,24 @@
+Program filtrado_de_señal
+Start
+    Declare Real x
+    Declare constant media=1000
+    Declare constant desviacion=300
+    Declare constant umbral=0.3
+    
+    Display "Programa para saber si una señal pasa el filtro"
+    Display "Ingrese la frecuencia de la señal:"
+    Input x
+
+         prob_acumulada = 0
+         For each f in range from 0 to frecuencia do
+         resultado = exp(-0.5 * ((x - media) / desviacion) ^ 2) / (desviacion * sqrt(2 * pi))
+         prob_acumulada = prob_acumulada + resultado
+         End For
+
+         If prob_acumulada > umbral Then
+            Display "La señal pasa el filtro."
+         Else
+            Display "La señal es bloqueada por el filtro."
+         End If
+End
+

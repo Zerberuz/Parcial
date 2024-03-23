@@ -1,0 +1,41 @@
+Prueba 1:
+
+Iniciar filtrado_de_señal
+x,media,desviacion,umbral
+media = 1000
+desviacion = 300
+umbral = 0.3 
+Si el usuario ingresa 842:
+x=842
+
+La señal es bloqueada por el filtro
+
+
+Prueba 2:
+
+Iniciar filtrado_de_señal
+x,media,desviacion,umbral
+media = 1000
+desviacion = 300
+umbral = 0.3 
+Si el usuario ingresa 843:
+x=843
+
+La señal pasa el filtro
+
+
+Prueba 3:
+
+Iniciar filtrado_de_señal
+x,media,desviacion,umbral
+media = 1000
+desviacion = 300
+umbral = 0.3 
+Si el usuario ingresa -500:
+x= -500
+
+La señal es bloqueada por el filtro
+
+
+Pregunta:¿para qué valor de frecuencia la señal deja de ser bloqueada?
+R/ A partir de una frecuencia de 843 la señal deja de ser bloqueada
